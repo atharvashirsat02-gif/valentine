@@ -1,0 +1,12 @@
+const noBtn = document.getElementById("no");
+const yesBtn = document.getElementById("yes");
+const msg = document.getElementById("msg");
+
+noBtn.addEventListener("mouseover", () => {
+  noBtn.style.left = Math.random() * 300 + "px";
+  noBtn.style.top = Math.random() * 300 + "px";
+});
+
+yesBtn.addEventListener("click", () => {
+  msg.innerHTML = "Yayyy!! 💖🥰";
+});

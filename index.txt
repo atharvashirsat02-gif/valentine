@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Be My Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Will you be my Valentine? 💘</h1>
+
+  <button id="yes">Yes 💕</button>
+  <button id="no">No 💔</button>
+
+  <h2 id="msg"></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
